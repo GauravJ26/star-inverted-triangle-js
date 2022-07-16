@@ -1,0 +1,14 @@
+
+//numbers in inverted triangle pattern js
+
+    let nos = 6;
+ let strg = "";
+
+for(var i = 1; i <= nos; i++) {
+
+  for(var j = 1 ; j <= nos-i+1 ; j++) {
+      strg += j;   
+  }
+      strg += "\n"
+ }
+     console.log(strg);
